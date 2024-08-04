@@ -1,0 +1,57 @@
+<resources>
+    <!-- Strings for the app -->
+    <string name="app_name">NDTC_SIS</string>
+    <string name="select">Select Items</string>"
+    <string name="dashboard_title">Notre Dame of Tacurong College Student Information System Mobile Application</string>
+    <string name="dashboard_welcome">Welcome to Notre Dame of Tacurong College, where your bright future begins. At Notre Dame of Tacurong College, we believe in nurturing minds, hearts, and spirits. Our commitment to providing a transformative educational experience will empower you to discover your true potential and pave the way for a promising future.</string>
+
+    <!-- dashboard text -->
+    <string name="home">Home</string>
+
+    <!-- Enrollment Card view Texts-->
+    <string name="enrollment">Enrollment History</string>
+    <string name="enrollment_title">ENROLLMENT HISTORY</string>
+
+
+    <!-- Subject_Schedules text-->
+    <string name="class_schedule">Class Schedule</string>
+    <string name="school_year_semester">Choose S.Y &amp; Semester</string>
+
+
+    <!-- Grades text-->
+    <string name="grades">Grades</string>
+
+
+    <!-- Statement of Account text-->
+    <string name="term">Term</string>
+    <string name="due">Due(₱)</string>
+    <string name="pre_midterm">PRE-MIDTERM</string>
+    <string name="amount_due">800.00</string>
+    <string name="statement">Statement of Account</string>
+
+
+    <!-- Summary of Payments-->
+    <string name="summary_of_payments">Summary of Payments</string>
+
+    <!-- Summary of Charges-->
+    <string name="summary_of_charges">Summary of Charges</string>
+
+
+    <!-- Profile strings -->
+    <string name="profile">Profile</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="parents_guardian">Parents &amp; Guardian</string>
+    <string name="wifi_account">WIFI Account</string>
+    <string name="horizontal_scroll_view_description">Horizontal Scroll View</string>
+
+
+    <!--String for Enrollment -->
+    <string name="current">Current Semester</string>
+    <string name="previous">Previous Semesters</string>
+    <string name="empty_data">No enrollment data found.</string>
+    <string name="notice">Please double tap the school year to proceed in grades</string>
+
+
+
+</resources>

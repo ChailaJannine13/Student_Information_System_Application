@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="5dp"
+                android:top="20dp"
+                android:left="30dp"
+                android:right="30dp" />
+            <gradient
+                android:startColor="@color/Dark_green"
+                android:centerColor="@color/moss_green"
+                android:endColor="@color/Dark_green"
+                android:angle="45"/>  <!-- Adds a gradient from dark green to moss green -->
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</layer-list>

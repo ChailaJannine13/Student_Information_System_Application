@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:title="Profile"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/enrollment"
+        android:icon="@drawable/home"
+        android:title="Enrollment"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/subject"
+        android:icon="@drawable/subjects"
+        android:title="Subject"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/statement_of_account"
+        android:icon="@drawable/wallet"
+        android:title="Statement of Account"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/summary_of_payments"
+        android:icon="@drawable/summary_of_payment"
+        android:title="Summary of Payments"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/summary_of_charges"
+        android:icon="@drawable/wallet"
+        android:title="Summary of Charges"
+        tools:ignore="HardcodedText"/>
+    <item
+        android:id="@+id/sign_out"
+        android:icon="@drawable/sign_out"
+        android:title="Sign Out"
+        tools:ignore="HardcodedText"/>
+</menu>

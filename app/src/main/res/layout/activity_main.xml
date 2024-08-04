@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login_background_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity"
+    tools:ignore="VisualLintBounds">
+
+    <!-- NDTC LOGO -->
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ndtc_logo"
+        android:alpha="0.2"
+        android:layout_marginTop="100dp"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-260dp"
+        android:layout_marginBottom="-150dp"
+        android:padding="24dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <!-- Login Welcome text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="arial"
+            android:text="Welcome to NDTC Student Information System"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <!-- User and Password input fields -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <!-- User Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_layout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            app:boxBackgroundMode="none"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/grey"
+            style="@style/Hint"
+            tools:ignore="HardcodedText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="center_vertical"
+                android:alpha="0.8"
+                android:inputType="text"
+                android:tag="Enter your username..."
+                android:hint="Enter your username..."
+                tools:ignore="TouchTargetSizeCheck"
+                style="@style/CenteredHintEditText"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/login_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FF000D"
+            android:visibility="gone"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:paddingBottom="20dp" />
+
+        <!-- Password Field -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_layout"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="10dp"
+            app:endIconMode="password_toggle"
+            app:boxBackgroundMode="none"
+            app:endIconTint="@color/grey"
+            style="@style/Hint"
+            tools:ignore="HardcodedText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_edittext"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+                android:gravity="center_vertical"
+                android:alpha="0.8"
+                android:tag="Enter your password..."
+                android:hint="Enter your password..."
+                tools:ignore="TouchTargetSizeCheck"
+                style="@style/CenteredHintEditText"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- Login Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_shadow"
+            android:backgroundTint="@color/moss_green"
+            android:fontFamily="arial"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
